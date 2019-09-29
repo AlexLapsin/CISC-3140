@@ -1,0 +1,10 @@
+;Defining the function 
+(define (palindrome? s)
+  (let ((chars (string->list s))) ;casting the string into a list of characters
+    (equal? chars (reverse chars))) ;checking if the list is equal to it's reverse
+
+;sample inputs:   (palindrome? "apple")
+                  => #f   
+                  (palindrome? "racecar")
+                  => #t
+    
