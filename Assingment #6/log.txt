@@ -1,0 +1,3 @@
+(28) double-quoted string literal: "Presentation was well organized"
+(1) near "SELECT": syntax error in "SELECT MIN(WellOrganized) FROM feedback
+SELECT MIN(WellOrganized) FROM feedback;"
